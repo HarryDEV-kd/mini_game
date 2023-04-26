@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game1.css" type="text/css">
+</head>
+<body>
+    <section class="con-fluid">
+        <p class="title">ROCK - PAPER - SCISSOR</p>
+            <br>
+            <div class="container">
+            <div class="tit-ps">
+                <h3>PLAYER </h3>
+                <h3>COMPUTER </h3>
+            </div>
+            <div class="main">
+                <div class="players">
+                    <div class="input">
+                        <label for="text"></label>
+                        <input name="player1" type="text" id="player" placeholder="P" size="9" required>
+                    </div> 
+                </div>
+                <div class="players print" id="print">
+                </div>
+                <div class="players">
+                    <div class="input">
+                        <input name="computer" type="text" id="computer" placeholder="C" size="9"required>
+                        <label for="text"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="result" id="result">
+            </div>
+            <div id="btnid">
+                 <div class="btn">
+                    <button class="button1" type="submit" id = "s" onclick= "s()">STONE</button>
+                    <button class="button1" id = "p" onclick="p()">PAPER</button>
+                    <button class="button1" id = "sc"onclick="sc()">SECISSOR</button>
+                 </div>
+            </div>
+                <div class="foot">
+                    <div class="score" >
+                        <p id ="p-score" class ="p-score">0</p>
+                    </div>
+                    <div>
+                        <button id="reset">RESTART</button>
+                   </div>
+                   <div class="score" >
+                       <p id = "c-score" class="p-score">0</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="gamej.js"></script>
+</body>
+</html>
+                       <!-- <div class="btn" id="player-btn-group">
+                        <button data-id="1" data-type="stone" class="button">STONE</button>
+                        <button data-id="2" data-type="paper" class="button">PAPER</button>
+                        <button data-id="3" data-type="secissor" class="button">SECISSOR</button>
+                       </div> -->
